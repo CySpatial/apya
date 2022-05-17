@@ -1,0 +1,29 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>APYA   0.2</Name><AddInID>{4f6df659-84c6-4e47-9701-0d138225b638}</AddInID><Description>Amenajman Plan&#305; Yap&#305;m Ara&#231;lar&#305;</Description><Version>0.2</Version><Image /><Author>MUSTAFA CEYHAN</Author><Company>OGM_OIPD</Company><Date>04/03/2021</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="APYA_addin.py" namespace="APYA_addin"><ArcMap>
+    <Commands>
+        <Button caption="Katman Olustur" category="APYA   0.2" class="ButtonClass1" id="APYA_addin.button" image="Images\point_olustur.png" message="Olustur" tip="tool"><Help heading="Olustur">Olustur</Help></Button>
+        <Button caption="Nokta Siralama" category="APYA   0.2" class="ButtonClass2" id="APYA_addin.button_1" image="Images\point.png" message="Nokta Duzenle" tip="tool"><Help heading="Nokta Duzenle">Nokta Duzenle</Help></Button>
+        <Button caption="Hesapla" category="APYA   0.2" class="ButtonClass4" id="APYA_addin.button_3" image="Images\Slope_resim.png" message="Hesapla" tip="tool"><Help heading="Hesapla">Hesapla</Help></Button>
+        <Button caption="Ortalama Hesapla" category="APYA   0.2" class="ButtonClass5" id="APYA_addin.button_4" image="Images\baki.png" message="Ortalama Hesapla" tip="tool"><Help heading="Ortalama Hesapla">Ortalama Hesapla</Help></Button>
+        <Button caption="Olustur" category="APYA   0.2" class="ButtonClass6" id="APYA_addin.button_5" image="Images\topology_resim.png" message="Olustur" tip="tool"><Help heading="Olustur">Olustur</Help></Button>
+        <Button caption="Sil" category="APYA   0.2" class="ButtonClass7" id="APYA_addin.button_6" image="Images\erase.png" message="Topoloji Silme" tip="tool"><Help heading="Topoloji Silme">Topoloji Silme</Help></Button>
+        <Button caption="En Uzun Sinira Gore Yap" category="APYA   0.2" class="ButtonClass8" id="APYA_addin.button_7" image="Images\eliminate.png" message="yedirme" tip="tool"><Help heading="yedirme">yedirme</Help></Button>
+        <Button caption="Y&#246;netmelik" category="APYA   0.2" class="ButtonClass9" id="APYA_addin.button_8" image="Images\Mevzuat.png" message="En Uzun S&#305;n&#305;ra G&#246;re" tip="tool"><Help heading="Yedirme">Yedirme</Help></Button>
+        <Button caption="299 sayili Teblig" category="APYA   0.2" class="ButtonClass51" id="APYA_addin.button_2" image="Images\Mevzuat.png" message="Teblig" tip="Teblig"><Help heading="Teblig">Teblig</Help></Button>
+        <Button caption="Cizim &#304;zahnamesi" category="APYA   0.2" class="ButtonClass52" id="APYA_addin.button_9" image="Images\Mevzuat.png" message="Cizim &#304;zahnamesi" tip="Cizim &#304;zahnamesi"><Help heading="Cizim &#304;zahnamesi">Cizim &#304;zahnamesi</Help></Button>
+        <Button caption="Ac" category="APYA   0.2" class="ButtonClass53" id="APYA_addin.button_10" image="Images\help.png" message="help" tip="help"><Help heading="help">help</Help></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="APYA 0.2" category="APYA   0.2" id="APYA_addin.toolbar" showInitially="true"><Items><Menu refID="APYA_addin.menu" /><Menu refID="APYA_addin.menu_1" /><Menu refID="APYA_addin.menu_2" /><Menu refID="APYA_addin.menu_3" /><Menu refID="APYA_addin.menu_5" /><Menu refID="APYA_addin.menu_4" /><Menu refID="APYA_addin.menu_6" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        <Menu caption="Ornek Alan" category="APYA   0.2" id="APYA_addin.menu" isRootMenu="false" isShortcutMenu="true" separator="true"><Items><Button refID="APYA_addin.button" /><Button refID="APYA_addin.button_1" /></Items></Menu>
+        <Menu caption="Egim" category="APYA   0.2" id="APYA_addin.menu_1" isRootMenu="false" isShortcutMenu="true" separator="true"><Items><Button refID="APYA_addin.button_3" /></Items></Menu>
+        <Menu caption="Baki" category="APYA   0.2" id="APYA_addin.menu_2" isRootMenu="false" isShortcutMenu="true" separator="true"><Items><Button refID="APYA_addin.button_4" /></Items></Menu>
+        <Menu caption="Topoloji Kontrol" category="APYA   0.2" id="APYA_addin.menu_3" isRootMenu="false" isShortcutMenu="true" separator="true"><Items><Button refID="APYA_addin.button_5" /><Button refID="APYA_addin.button_6" /></Items></Menu>
+        <Menu caption="Yedirme" category="APYA   0.2" id="APYA_addin.menu_5" isRootMenu="false" isShortcutMenu="true" separator="true"><Items><Button refID="APYA_addin.button_7" /></Items></Menu>
+        <Menu caption="Mevzuat" category="APYA   0.2" id="APYA_addin.menu_4" isRootMenu="false" isShortcutMenu="true" separator="true"><Items><Button refID="APYA_addin.button_8" /><Button refID="APYA_addin.button_2" /><Button refID="APYA_addin.button_9" /></Items></Menu>
+        <Menu caption="Yard&#305;m" category="APYA   0.2" id="APYA_addin.menu_6" isRootMenu="false" isShortcutMenu="true" separator="true"><Items><Button refID="APYA_addin.button_10" /></Items></Menu>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
